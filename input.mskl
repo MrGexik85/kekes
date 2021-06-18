@@ -1,0 +1,17 @@
+var a,b,c:integer;
+var f: real;
+begin
+    a := 5;
+    c := 14;
+    f := 3.14;
+    if (a = 5) then begin 
+        a := 1;
+    end; else begin
+        a := 3;
+    end;
+    while(a > 1) do begin
+        a := a - 1;
+        f := f + 1;
+    end;
+    f := 15;
+end.
